@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+	    <!--metadata goes here -->
+        <title>Zhenwen's Arcade: Connect Four</title>
+        <link rel="stylesheet" type="text/css" href="connect4.css">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+
+        <meta name="description" content="Welcome to Zhenwen's Arcade! Time to play Connect 4.">
+        <meta name="author" content="Zhenwen D. & Kobe T.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <!-- Content goes here  -->
+        <div class="top-page">
+            <center>
+                <h1>Connect Four</h1>
+                <a class="github" target="_blank" href="https://github.com/kotran222/connect4"><i class="fab fa-github"></i></a> 
+                <p>Welcome to Zhenwen's Arcade! Time to play Connect 4.</p>
+                <p><strong>Instructions: </strong> Players take turns dropping colored circles in the top of the board, and the goal is to form 4 circles in a row--straight or diagonal--first before the other player.</p>
+            </center>
+
+            <br/>
+
+            <h3>There are two game modes to choose from.</h3>
+            <ol>
+                <li>Play with another human player: <button class="duel">Two Players</button></li>
+                <li>Play with an AI: <button>Single Mode</button></li>
+            </ol> 
+        </div>
+
+        <br/>
+
+        <!-- Connect Four Board -->
+        <center class="game-board">
+            <p class="turns"><strong>Whose Turn: </strong> &ensp; </p>
+
+            <br/>
+
+            <div class="container">
+                <table>
+                    <tr>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                        <td class="slot"></td>
+                    </tr>                    
+                </table>
+            </div>
+
+            <br/>
+
+            <button class="reset">RESET</button>
+        </center>
+
+        <script type="text/javascript" src="connect4.js"></script>  
+        
+        <footer>&ensp; Backend by Zhenwen D. &ensp; | &ensp; Web Design by Kobe T.</footer>
+    </body>
+</html>

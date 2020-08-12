@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
+
+body{
+    background-color: #B3E5FC;
+}
+
+button{
+    box-shadow: 3px 3px rgb(0, 0, 0, 0.441);
+    background-color: #ffe5b4; 
+}
+
+.github{
+    color: white;
+    font-size: 3em;
+}
+
+.top-page{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.game-board{
+    padding-bottom: 2.5rem;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    /* display: grid; */
+    background-color: rgb(255, 195, 11);
+    border: 2px solid black;
+    box-shadow: 5px 5px rgb(0, 0, 0, 0.441);
+    /*fr means fraction; 2fr is twice of 1fr*/
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+    /* repeat 1fr seven times */
+    /* grid-template-columns: repeat(7, 1fr); */
+
+    /* justify-content: center;
+    align-content: center; */
+    width: 650px;
+    height: 525px;
+    padding: 1.5rem;
+
+}
+
+.slot {
+    height: 75px;
+    width: 75px;
+    background-color: rgb(255,250, 250);
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.reset {
+    background-color: pink;
+}
+
+.score{
+    background-color: rgb(255,250, 250);
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 12px;
+}

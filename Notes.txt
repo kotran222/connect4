@@ -1,0 +1,11 @@
+AI Mode:
+    Need to address clicking problem. (Currently Need to click board for AI to place slot randomly--not good)
+    glitches: AI sometimes has levitating chip above empty slot 
+    
+    Once the two issues are addressed, need to improve AI. 
+
+Reset and button issues:
+    Play one mode first, and then click reset. Then select another mode.
+        --> GLitchy gameplay where both players place two chips at a time. 
+
+Adding a score table above or below the game board causes an error in game board. 

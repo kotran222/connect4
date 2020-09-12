@@ -1,9 +1,12 @@
+/* Connect 4 CSS */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 html{
     font-family: 'Roboto', sans-serif;
     position: relative;
     min-height: 100vh;
+    font-size: 20px;
 }
 
 body{
@@ -33,21 +36,13 @@ button{
 }
 
 .container{
-    /* display: grid; */
     background-color: rgb(255, 195, 11);
     border: 2px solid black;
     box-shadow: 5px 5px rgb(0, 0, 0, 0.441);
-    /*fr means fraction; 2fr is twice of 1fr*/
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
-    /* repeat 1fr seven times */
-    /* grid-template-columns: repeat(7, 1fr); */
-
-    /* justify-content: center;
-    align-content: center; */
     width: 650px;
     height: 525px;
     padding: 1.5rem;
-
+    cursor: pointer;
 }
 
 .slot {
@@ -65,6 +60,23 @@ button{
 .score{
     background-color: rgb(255,250, 250);
 }
+
+.endgame {
+    display: none;
+    width: 200px;
+    top: 900px;
+    background-color: rgba(255,195, 11, 0.8);
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+  }
 
 footer{
     position: absolute;
